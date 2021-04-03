@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.index,.result{
+    padding:10px;
+    max-width: 500px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.6);
+    gap: 1em;
+    border-radius: 5px;
+}
+
+    .index label{
+        display: flex;
+        justify-content: space-between;
+    }
+    .index > label >*{
+        width: 50%;
+        height: 2em;
+    }
+    .index > label > input{
+        padding-left: 1em;
+    }
+
+.btn{
+    width: 20%;
+    margin-left: auto;
+    background-color: #2b78e4;
+    color: #fff;
+    display: block;
+}
+
+textarea{
+    resize:none;
+    width:100%;
+    height: 100px;
+    padding: 10px;
+}
+
+
